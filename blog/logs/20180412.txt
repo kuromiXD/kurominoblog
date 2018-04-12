@@ -1,0 +1,3 @@
+2018/04/12 02:45:29select cat_id,cat_name from category-----------------------------------
+2018/04/12 02:45:29select count(*) from article-----------------------------------
+2018/04/12 02:45:29select art_id,title,content,last_modify_time,comment,thumb,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3-----------------------------------

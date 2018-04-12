@@ -1,0 +1,80 @@
+-----------------------------------
+2018/02/22 19:17:39
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 19:17:39
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/22 20:37:35
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:37:35
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/22 20:37:35
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:22
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:35
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:35
+insert into article (title,content,cat_id,tag) value ('王♂的微笑','怎么说','10','哲♂学 赞美之心')
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:36
+update category set art_num=art_num+1 where cat_id=10
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:36
+insert into tag (art_id,content) values (6,'哲♂学'),(6,'赞美之心')
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:37
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:59
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:59
+insert into article (title,content,cat_id,tag) value ('PHP指导','测试而已','9','')
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:59
+update category set art_num=art_num+1 where cat_id=9
+-----------------------------------
+-----------------------------------
+2018/02/22 20:38:59
+insert into tag (art_id,content) values (7,'')
+-----------------------------------
+-----------------------------------
+2018/02/22 20:39:00
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:39:03
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:39:06
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/22 20:39:06
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/22 20:39:06
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------

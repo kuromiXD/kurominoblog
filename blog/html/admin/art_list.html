@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../css/admin/art_list.css?v=3/10.1">
+	<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css">
+	<title>kuromi的blog</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="banner1"><img src="../../image/logo.PNG"></div>
+			<div class="banner2"><img src="../../image/picture22.PNG"></div>
+			
+			<div class="clean"></div>     
+		</div>
+		<div class="navigation">
+		  <ul>  
+			<li><a  href ="../../" title="首页"><sapn class="fa fa-home fa-fg ">首页</sapn></a></li>
+			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o">文章</span></a></li>
+			<li><a  href ="" title="关于"><span class="fa fa-info-circle">关于</span></a></li>
+			<li><a  href ="" title="留言"><span class="fa fa-commenting-o">留言</span></a></li>
+			<?php if(@$_COOKIE['username']=='admin'){ echo
+			'<li><a  href ="./manage.php" title="管理"><span class="fa fa-cog fa-spin"></span>管理</a></li>';
+			}?>
+		  </ul>
+		</div>
+		<div class="grayblock">
+			
+		</div>
+		<div class="content">
+            <div class="art_list">
+            	<table cellspacing="0">
+            		<tr>
+            			<td class="list_td"><p>No.</p></td>
+            			<td class="list_td"><p>Title</p></td>
+            			<td class="list_td"><p>Category</p></td>
+            			<td class="list_td"><p>Comment</p></td>
+            			<td class="list_td"><p>ModifyTime</p></td>
+            			<td class="list_td"><p>Operate</p></td>
+            		</tr>
+            		
+            		<?php 
+            		foreach($artinfo as $info) {
+            		?>
+            		<tr>
+						<td class="list_td"><?php echo $info['art_id'];?></td>
+						<td class="list_td"><?php echo "<a class='list_a1' href='../viewer/art.php?art_id=$info[art_id]'>",$info['title'],
+						"</a>";?></td>
+						<td class="list_td"><?php echo "<a class='list_a1' href='../../index.php?cat_id=$info[cat_id]'>",$info['cat_name'],
+						"</a>";?></td>
+						<td class="list_td"><?php echo $info['comment'];?></td>
+						<td class="list_td"><?php echo $info['last_modify_time'];?></td>
+                        <td class="list_td"><?php echo 
+                        	"<a class='list_a' href='art_edit.php?art_id=$info[art_id]'>";?><button><span class="fa fa-edit">编辑</span></button>
+                        	<?php echo
+                        	"<a class='list_a' href='art_del.php?art_id=$info[art_id]'>";?><button><span class="fa fa-trash">删除</span></button></a>
+                        	
+                        </td>
+            		</tr>
+            		<?php }?>
+            		
+            	</table>
+            </div>
+            <div class="list">
+            	<div class="manage_cat">
+					<h1><span class="fa fa-folder-o">栏目管理</span></h1>
+					<hr/>
+					<ul>
+						<li class="manage"><a class="a_manage" href="./cat_list.php">栏目列表</a></li>
+						<li class="manage"><a class="a_manage" href="./cat_add.php">添加栏目</a></li>
+					</ul>
+			   </div>
+			   <div class="manage_art">
+				<h1><span class="fa fa-newspaper-o">文章管理</span></h1>
+					<hr/>
+					<ul>
+						<li class="manage"><a class="a_manage" href="./art_list.php">文章列表</a></li>
+						<li class="manage"><a class="a_manage" href="./art_add.php">添加文章</a></li>
+					</ul>
+				</div>
+				<div class="manage_admin">
+				<h1><span class="fa fa-user-circle">个人中心</span></h1>
+					<hr/>
+					<ul>
+					<li class="manage"><a class="a_manage" href="">信息管理</a></li>
+					<li class="manage"><a class="a_manage" href="">退出登录</a></li>
+					</ul>
+				</div>
+            </div>
+			<div class="clean"></div>
+		</div>
+    </div>
+</body>
+</html>

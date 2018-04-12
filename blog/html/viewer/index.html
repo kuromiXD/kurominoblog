@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/viewer/index__style.css?v=4/2.2">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="utf-8">
+	<title>kuromi的blog</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="banner1"><img src="./image/logo.PNG"></div>
+			<div class="banner2"><img src="./image/picture22.PNG"></div>
+			<div class="clean"></div>     
+		</div>
+		<div class="navigation">
+		  <ul>  
+			<li><a  href ="./index.php" title="首页"><sapn class="fa fa-home fa-fg ">首页</sapn></a></li>
+			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o">文章</span></a></li>
+			<li><a  href ="" title="关于"><span class="fa fa-info-circle">关于</span></a></li>
+			<li><a  href ="" title="留言"><span class="fa fa-commenting-o">留言</span></a></li>
+			<?php if(@$_COOKIE['username']=='admin'){ echo
+			'<li><a  href ="./php/admin/manage.php" title="管理"><span class="fa fa-cog fa-spin"></span>管理</a></li>';
+			}?>
+		  </ul>
+		</div>
+		<div class="grayblock">
+		</div>
+		<div class="content">
+			<div class="article">
+				<?php foreach($art as $a){?>
+             	<div class="article_info">
+             		<h1 class="art_h1">
+             			<?php echo "<a class='fa-a' href='php/viewer/art.php?art_id=$a[art_id]'>","<span class='php' style='font-family:myFirstFont '>",$a['title'],"</span>","</a>";?>
+             		</h1>
+                	<span class="fa fa-calendar"><?php $date=date_create($a['last_modify_time']);
+                		echo date_format($date,"Y/m/d");?></span>
+                	&nbsp;&nbsp;
+                	<span class="fa fa-user-o"></span>kuromi
+                	<?php if($a['thumb']) {?>
+                	<img  class="thumb_img" src="<?php echo $a['thumb'];?>">
+                	<?php }?>
+                    <pre class="p_content" style="font-family: myFirstFont;margin: 15px 0"><?php $content= mb_substr($a['content'],0,150,'utf-8');echo $content,"<a class='fa-a' href='php/viewer/art.php?art_id=$a[art_id]'>","......","<span class='php' style='color: red'>","<br/>（阅读全文）","</span>","</a>";?></pre>
+                    <div class="black_tag">
+                    	<span class="sp fa fa-folder"><?php echo
+                    	"<a class='fa-a' href='index.php?cat_id=$a[cat_id]'>","<span class='php'>",
+                    		$a['cat_name'],"</span>","</a>";?>
+                    	<span class="sp fa fa-comments"><?php echo $a['comment'];?></span>
+                    	<span class="sp fa fa-tag"><span class="i-tag"><?php echo $a['tag'];?></span></span>
+                    </div>
+            	</div>
+            	<?php }?>
+            	<ul class="page">
+            		<li><a class='page_active' style="padding: 8px 10px" href="<?php if($page_curr-1<=0){echo '';
+					}else{?>
+					index.php?
+					<?php echo 'cat_id='.@$_GET[cat_id],'&page=',$page_curr-1;		
+					}?>"><</a></li>
+            		<?php foreach($page as $k=>$v){ ?>
+            		<?php if($k==$page_curr){
+            		echo '<li>',"<a class='page_active'>",$k,'</a>','</li>';}else{?><li><a class="page_a" href="index.php?<?php echo $v;?>"><?php echo $k;?></a></li>
+            	<?php }}?>
+            	<li><a class='page_active' style="padding: 8px 10px" href="<?php if($page_curr==$max_page){echo '';
+					}else{?>
+					index.php?
+					<?php echo 'cat_id='.@$_GET[cat_id],'&page=',$page_curr+1;		
+					}?>">></a></li>
+            	</ul>	
+		</div>
+			<div class="list">
+				<div class="search">
+					<form method="get" >
+				 		<input placeholder="Search for..." type="text" name="search" value="" class="search_form">
+					</form>
+				</div>
+					<div class="logreg">
+						        <?php if(!isset($_COOKIE['islogin'])) {
+						        echo "&nbsp;&nbsp;&nbsp;&nbsp;<a class='fa-a' href='./php/viewer/login.php'><i class=' fa fa-sign-in '></i><span class='php'>登录</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a class='fa-a' href='./php/viewer/register.php'><i class=' fa fa-registered '></i><span class='php'>注册</span></a>";} 
+								else{
+								echo "&nbsp;&nbsp;&nbsp;&nbsp;","Hello~","<span class='php_1'>",$_COOKIE['username'],"</span>&nbsp;&nbsp;&nbsp;&nbsp;<i class=' fa fa-registered '></i><span class='php'><a  class=logout href='./php/viewer/logout1.php'>退出</a></span>";
+							   }
+								?>
+                    			
+				</div>	
+				<div class="manage_cat">
+					<h1><span class="fa fa-folder">&nbsp;栏目列表</span></h1>
+					
+					<ul class="fa-ul">
+						<?php foreach($cat as $c){?>
+                    	<li>
+                    		<?php echo "<a class='fa-a' href='index.php?cat_id=$c[cat_id]'>";?>
+                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php"><?php echo $c['cat_name'];?></span></a></li>
+                    			<?php }?>
+                    </ul>
+                    
+				</div>	  
+			</div>    
+			<div class="clean"></div>
+		</div>
+    </div>
+</body>
+</html>

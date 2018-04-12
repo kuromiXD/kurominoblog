@@ -1,0 +1,186 @@
+-----------------------------------
+2018/04/11 12:25:57
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:25:57
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:25:57
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+2018/04/11 04:29:41select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:43:01select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:43:17select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:43:45select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:44:32select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:44:36select art_id,title,category.cat_id,cat_name,content,tag from article left join category 
+	on category.cat_id=article.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:44:36select cat_id,cat_name from category -----------------------------------
+2018/04/11 04:44:58select count(*) from article where art_id='23'-----------------------------------
+2018/04/11 04:44:58update article set title='5',content='3444',cat_id='5',tag='4',picture_dir='./upload/2018/04/11/Y1aLG7.exe',thumb='' where art_id=23-----------------------------------
+2018/04/11 04:44:58delete from tag where art_id='23'-----------------------------------
+2018/04/11 04:44:58insert into tag (art_id,content) values (23,'4')-----------------------------------
+2018/04/11 04:44:59select art_id,title,category.cat_id,cat_name,content,tag from article left join category 
+	on category.cat_id=article.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:44:59select cat_id,cat_name from category -----------------------------------
+2018/04/11 04:45:03select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:03select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:03select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:05select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:05select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:05select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:13select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:13select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:13select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:13select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:13select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:13select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:14select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:14select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:14select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:14select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:14select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:14select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:15select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:15select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:15select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:16select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:16select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:16select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:16select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:16select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:16select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:16select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:16select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:16select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:16select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:16select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:16select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:16select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:16select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:16select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:18select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:18select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:18select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:45:40select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:45:40select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:45:40select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:46:44select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:46:47select art_id,title,category.cat_id,cat_name,content,tag from article left join category 
+	on category.cat_id=article.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:46:47select cat_id,cat_name from category -----------------------------------
+2018/04/11 04:47:03select count(*) from article where art_id='23'-----------------------------------
+2018/04/11 04:47:03update article set title='5',content='3444',cat_id='5',tag='4',picture_dir='./upload/2018/04/11/VXHPyM.png',thumb='./upload/2018/04/11/9j1ntQ.png' where art_id=23-----------------------------------
+2018/04/11 04:47:03delete from tag where art_id='23'-----------------------------------
+2018/04/11 04:47:03insert into tag (art_id,content) values (23,'4')-----------------------------------
+2018/04/11 04:47:04select art_id,title,category.cat_id,cat_name,content,tag from article left join category 
+	on category.cat_id=article.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:47:04select cat_id,cat_name from category -----------------------------------
+2018/04/11 04:47:06select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:47:06select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:47:06select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:47:09select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:47:09select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:47:09select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+2018/04/11 04:47:19select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:47:19select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='23'-----------------------------------
+2018/04/11 04:47:19select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='23' order by last_modify_time-----------------------------------
+-----------------------------------
+2018/04/11 12:48:41
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:48:54
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:49:05
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:49:05
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 12:49:05
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+2018/04/11 04:49:08select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:49:10delete from tag where art_id='23'-----------------------------------
+2018/04/11 04:49:10delete from comment where art_id='23'-----------------------------------
+2018/04/11 04:49:10select cat_id from article where art_id=23-----------------------------------
+2018/04/11 04:49:10delete from article where art_id =23-----------------------------------
+2018/04/11 04:49:10update category set art_num=art_num-1 where cat_id=5-----------------------------------
+2018/04/11 04:49:10select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:49:56select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:49:56select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='24'-----------------------------------
+2018/04/11 04:49:56select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='24' order by last_modify_time-----------------------------------
+2018/04/11 04:50:00select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:50:00select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='24'-----------------------------------
+2018/04/11 04:50:00select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='24' order by last_modify_time-----------------------------------
+2018/04/11 04:52:18select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:52:18select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='24'-----------------------------------
+2018/04/11 04:52:18select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='24' order by last_modify_time-----------------------------------
+2018/04/11 04:52:20select cat_id,cat_name from category-----------------------------------
+2018/04/11 04:52:20select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='24'-----------------------------------
+2018/04/11 04:52:20select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='24' order by last_modify_time-----------------------------------
+2018/04/11 04:52:22select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 04:52:28delete from tag where art_id='24'-----------------------------------
+2018/04/11 04:52:28delete from comment where art_id='24'-----------------------------------
+2018/04/11 04:52:28select cat_id from article where art_id=24-----------------------------------
+2018/04/11 04:52:28delete from article where art_id =24-----------------------------------
+2018/04/11 04:52:28update category set art_num=art_num-1 where cat_id=9-----------------------------------
+2018/04/11 04:52:28select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 05:02:20select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 05:02:23delete from tag where art_id='25'-----------------------------------
+2018/04/11 05:02:23delete from comment where art_id='25'-----------------------------------
+2018/04/11 05:02:23select cat_id from article where art_id=25-----------------------------------
+2018/04/11 05:02:23delete from article where art_id =25-----------------------------------
+2018/04/11 05:02:23update category set art_num=art_num-1 where cat_id=9-----------------------------------
+2018/04/11 05:02:23select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:37:34select cat_id,cat_name from category-----------------------------------
+2018/04/11 11:37:34select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='20'-----------------------------------
+2018/04/11 11:37:34select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='20' order by last_modify_time-----------------------------------
+2018/04/11 11:37:38select cat_id,cat_name from category-----------------------------------
+2018/04/11 11:37:38select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='20'-----------------------------------
+2018/04/11 11:37:38select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='20' order by last_modify_time-----------------------------------
+-----------------------------------
+2018/04/11 19:37:56
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 19:37:56
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/04/11 19:37:56
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+2018/04/11 11:42:39select cat_id,cat_name from category-----------------------------------
+2018/04/11 11:42:39select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='26'-----------------------------------
+2018/04/11 11:42:39select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='26' order by last_modify_time-----------------------------------
+2018/04/11 11:42:42select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:44select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:45select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:46select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:48select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:51select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:53select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:55select * from category-----------------------------------
+2018/04/11 11:42:57select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:42:58select * from category-----------------------------------
+2018/04/11 11:43:01select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 11:43:05delete from tag where art_id='26'-----------------------------------
+2018/04/11 11:43:05delete from comment where art_id='26'-----------------------------------
+2018/04/11 11:43:05select cat_id from article where art_id=26-----------------------------------
+2018/04/11 11:43:05delete from article where art_id =26-----------------------------------
+2018/04/11 11:43:05update category set art_num=art_num-1 where cat_id=5-----------------------------------
+2018/04/11 11:43:05select art_id,title,last_modify_time,comment,cat_name,article.cat_id from article left join category on article.cat_id=category.cat_id-----------------------------------
+2018/04/11 12:01:15select cat_id,cat_name from category-----------------------------------
+2018/04/11 12:01:15select count(*) from article-----------------------------------
+2018/04/11 12:01:15select art_id,title,content,last_modify_time,comment,thumb,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3-----------------------------------
+2018/04/11 12:01:18select cat_id,cat_name from category-----------------------------------
+2018/04/11 12:01:18select art_id,title,content,picture_dir,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where art_id='20'-----------------------------------
+2018/04/11 12:01:18select comment.user_id,last_modify_time,content,user.username from comment left join  user on comment.user_id=user.user_id where art_id='20' order by last_modify_time-----------------------------------

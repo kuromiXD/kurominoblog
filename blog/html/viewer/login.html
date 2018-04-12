@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../css/viewer/login.css?v=3/25.2">
+	<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<title>kuromi的blog</title>
+	
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="banner1"><img src="../../image/logo.PNG"></div>
+			<div class="banner2"><img src="../../image/picture23.PNG"></div>
+			
+			<div class="clean"></div>     
+		</div>
+		<div class="navigation">
+		  <ul>  
+			<li><a  href ="../../" title="首页"><sapn class="fa fa-home fa-fg ">首页</sapn></a></li>
+			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o">文章</span></a></li>
+			<li><a  href ="" title="关于"><span class="fa fa-info-circle">关于</span></a></li>
+			<li><a  href ="" title="留言"><span class="fa fa-commenting-o">留言</span></a></li>
+			<?php if(@$_COOKIE['username']=='admin'){ echo
+			'<li><a  href ="./php/admin/manage.php" title="管理"><span class="fa fa-cog fa-spin"></span>管理</a></li>';
+			}?>
+		  </ul>
+		</div>
+		<div class="grayblock">
+			
+		</div>
+		<div class="content">
+			<div class="login">
+				<div class="login_1"><form method="post">
+					
+						用户名：<input type="text" name="username" class="login_input">
+						密码:<input type="password" name="password" class="login_input">
+						<div id="vv"><p style="padding: 0px;margin: 0px;">验证码:</p><input type="text" name="identi_code" class="login_input_ic">
+						<?php echo "<img src=\"$url_identi_code\" class='identi_pic' onclick='identi()'>";
+						?><span style="font-size: 12px;color: red;vertical-align: top">（如果看不清点击切换）</span></div>
+						<div style="display: block;"><input type="submit" name="" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="./register.php" ><button type="button">注册</button></a></div>
+
+						
+				</form>
+				
+				</div>
+			</div>
+			<div class="clean"></div>
+		</div>
+    </div>
+    <script type="text/javascript" src="../../js/identi.js?v=3/27.1"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+2018/03/14 05:28:26
+select count(*) from user where username='ss'
+-----------------------------------
+2018/03/14 05:28:36
+select count(*) from user where username='ss'
+-----------------------------------
+2018/03/14 05:30:53
+select count(*) from user where username='ss'-----------------------------------
+2018/03/14 05:31:19
+select count(*) from user where username='ss'-----------------------------------
+2018/03/14 05:32:08select count(*) from user where username='ss'-----------------------------------
+2018/03/14 05:32:10select count(*) from user where username='ss'-----------------------------------
+2018/03/14 05:32:10select count(*) from user where username='ss'-----------------------------------

@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+}
+h1{
+	margin: 0;
+	text-align: center;
+	line-height: 60px;
+	font-size: 22px;
+	font-weight: 600;
+}
+textarea{
+	width: 450px;
+	height: 180px;
+	resize: none;
+	vertical-align: top;
+}
+span{
+	margin: 0px;
+	font-size: 16px;
+	font-family: "黑体";
+}
+div>img{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+}
+.navigation li{
+	display: inline-block;
+	line-height: 50px;
+	margin:0 40px;
+	list-style-type: none;
+	width: 65px;
+	height: 50px;
+	text-align: center;
+}
+li>a{
+	text-decoration: none;
+	color: white;
+    display: block;
+    float: left;
+    width: 65px;
+    height: 50px;
+}
+a:hover{
+	background-color: gray;
+}
+
+.a_manage{
+   margin: 10px 100px;
+   height: auto;
+   width: auto;
+   color: orange;
+   font-size: 18px;
+   font-family: "新宋体";
+}
+.manage{
+	display: block;
+	margin: 15px 0 0 0;
+	height: 50px;
+}
+.a_manage:hover{
+    background-color: white;
+}
+.main{
+	overflow : auto;
+	height : auto;
+	min-height: 900px;
+	margin : 0 auto;
+	background-image: url(../../image/59440693_p0.jpg);
+    background-size: 100% 100%;
+}
+
+.header{
+	margin: 0 auto;
+	height: auto;
+	width:1200px;
+	background-color:white;
+}
+.banner1{
+	height: 200px;
+	width: 19%;
+	float: left;
+}
+.banner2{
+	height: 200px;
+	width: 81%;
+	float: left;
+}
+
+.navigation{
+	margin: 0 auto;
+	height: 50px;
+	width: 1200px;
+   background-color: black;
+    text-align: left;
+}
+.grayblock{
+	margin: 0 auto;
+	background-color: #EFE8EB;
+	height: 22px;
+	width: 1200px;
+}
+.content{
+	height: auto;
+	margin: 0 auto;
+    width: 1200px;
+    background-color: #EFE8EB;
+}
+
+.art_div{
+	text-align: left;
+	position: relative;
+	left: 50px;
+	width:500px;
+	margin: 25px 0;
+}
+.add_cat{
+   text-align: center;
+   margin:0 22px 12px 22px; 
+   float: left;
+   background-color: white;
+   width: 68%;
+   height:500px;
+   border-radius: 25px;
+
+}
+.list{
+  margin: 0 22px 10px 0 ;
+  float: right;
+  background-color: white;
+  width: 25%;
+   height: auto;
+}
+.manage_cat{
+	
+	height: 220px;
+	width: 95%;
+	background-color:#E1F6F5;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.manage_art{
+    
+	height: 220px;
+	width: 95%;
+	background-color:#E1F6F5;
+	border-radius: 10px;
+	margin:20px auto;
+}
+
+.manage_admin{
+    
+	height: 220px;
+	width: 95%;
+	background-color:#E1F6F5;
+	border-radius: 10px;
+	margin:20px auto;
+}
+
+.clean{
+	clear: both;
+}
+

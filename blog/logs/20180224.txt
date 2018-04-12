@@ -1,0 +1,536 @@
+-----------------------------------
+2018/02/24 19:19:37
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:19:37
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:19:38
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:20:36
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:20:36
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:20:36
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:20:39
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:24:38
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:40
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:43
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:25:57
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+delete from tag where art_id='13'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+delete from comment where art_id='13'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+select cat_id from article where art_id=13
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+delete from article where art_id =13
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+update category set art_num=art_num-1 where cat_id=7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:26:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+delete from tag where art_id='12'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+delete from comment where art_id='12'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+select cat_id from article where art_id=12
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+delete from article where art_id =12
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+update category set art_num=art_num-1 where cat_id=7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:49
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+delete from tag where art_id='11'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+delete from comment where art_id='11'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+select cat_id from article where art_id=11
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+delete from article where art_id =11
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+update category set art_num=art_num-1 where cat_id=7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+delete from tag where art_id='10'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+delete from comment where art_id='10'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+select cat_id from article where art_id=10
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+delete from article where art_id =10
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+update category set art_num=art_num-1 where cat_id=7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:53
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:54
+delete from tag where art_id='9'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:54
+delete from comment where art_id='9'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:54
+select cat_id from article where art_id=9
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:54
+delete from article where art_id =9
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:55
+update category set art_num=art_num-1 where cat_id=10
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:55
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+delete from tag where art_id='8'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+delete from comment where art_id='8'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+select cat_id from article where art_id=8
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+delete from article where art_id =8
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+update category set art_num=art_num-1 where cat_id=8
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:57
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+delete from tag where art_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+delete from comment where art_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+select cat_id from article where art_id=7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+delete from article where art_id =7
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+update category set art_num=art_num-1 where cat_id=9
+-----------------------------------
+-----------------------------------
+2018/02/24 19:27:58
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:00
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:00
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:00
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:02
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:02
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:02
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 2,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:04
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:04
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:28:04
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:10
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:10
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:10
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:12
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:13
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:27
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:27
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:27
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:28
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:28
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:28
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:30
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:30
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:30
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 3,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:31
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:31
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:31
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:33
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:33
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:33
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 3,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:34
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:29:34
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,2
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:00
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:00
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:00
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:02
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:02
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:02
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 3,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:03
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:03
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:03
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:30:26
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/24 19:42:25
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:42:25
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:42:25
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:08
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:08
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:08
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:30
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:30
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:30
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:57
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:57
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:43:57
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:44:25
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:44:25
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:44:25
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:35
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:35
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:35
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:36
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:36
+select count(*) from article
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:36
+select art_id,title,content,last_modify_time,comment,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3
+-----------------------------------
+-----------------------------------
+2018/02/24 19:58:39
+select cat_id,cat_name from category
+-----------------------------------

@@ -1,0 +1,294 @@
+body{
+	margin: 0;
+	min-height: 800px;
+}
+@font-face
+{
+font-family: myFirstFont;
+src: url('Sansation_Bold.ttf'),
+     url('Sansation_Bold.eot'); /* IE9+ */
+font-weight:bold;
+}
+form{
+	padding: 0;
+	margin: 0;
+	width: 50;
+}
+div>img{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	margin: 0;
+	width: 100%;
+}
+
+
+h1{
+	margin: 0 50px 0 10px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-family: "ÐÂËÎÌå";
+}
+textarea{
+	width: 500px;
+	height: 200px;
+	resize: none;
+	vertical-align: top;
+}
+pre{
+	white-space:pre-wrap;  
+white-space:-moz-pre-wrap;  
+white-space:-pre-wrap;  
+white-space:-o-pre-wrap;  
+word-wrap:break-word; 
+}
+.navigation li{
+	display: inline-block;
+	line-height: 50px;
+	margin:0 40px;
+	list-style-type: none;
+	width: 65px;
+	height: 50px;
+	text-align: center;
+}
+.navigation a{
+	text-decoration: none;
+	color: white;
+    display: block;
+    float: left;
+    width: 65px;
+    height: 50px;
+}
+.navigation a:hover{
+	background-color: gray;
+}
+
+.fa-a{
+	text-decoration: none;
+	color: black;
+	margin: 0;
+}
+
+
+.fa-ul{
+	margin: 0 0 0 60px;
+}
+.fa-ul li{
+	margin: 0 0 10px 0;
+}
+.main{
+	overflow : auto;
+	height : auto;
+	min-height: 800px;
+	margin : 0 auto;
+	background-image: url(../../image/59440693_p0.jpg);
+	background-size: 100% 100%;
+	
+}
+.php:hover{
+	color: #FB9BE9;
+}
+.header{
+	margin: 0 auto;
+	height: auto;
+	width:1200px;
+	background-color:white;
+}
+.banner1{
+	height: 200px;
+	width: 19%;
+	float: left;
+}
+.banner2{
+	height: 200px;
+	width: 81%;
+	float: left;
+}
+
+.navigation{
+	margin: 0 auto;
+	height: 50px;
+	width: 1200px;
+   background-color: black;
+    text-align: left;
+}
+.grayblock{
+	margin: 0 auto;
+	background-color: #EFE8EB;
+	height: 22px;
+	width: 1200px;
+}
+.content{
+	height: auto;
+	margin: 0 auto;
+    width: 1200px;
+    background-color: #EFE8EB;
+}
+
+.article{
+   margin:0 22px 12px 22px; 
+   float: left;
+   background-color: white;
+   width: 68%;
+   height: auto;
+}
+
+.art_h1{
+text-align: left;
+margin: 30px 0 0 0 ;
+padding: 0;
+line-height: 30px;
+font-size: 21px;
+color: #916CCD;
+font-family: Tahoma;
+}
+
+.article_info{
+   margin: 30px 0;
+   padding: 0;
+   background: white;
+   width: 95%;
+   height: auto;
+   position: relative;
+   left: 25px;
+}
+
+.list{
+  margin: 0 22px 10px 0 ;
+  float: right;
+  background-color: white;
+  width: 25%;
+   height: auto;
+}
+.manage_cat{
+	padding: 0 0 20px 0;
+	height: auto;
+	width: 95%;
+	background-color:#E1F6F5;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+.search_form{
+	height: 45px;
+	width: 220px;
+	margin: 0;
+	padding: 0;
+}
+.search{
+	padding: 0;
+	height: 60px;
+	width: 238px;
+	background-color:white;
+	border-radius: 10px;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 60px;
+}
+.black_tag{
+	background-color: gray;
+	border-bottom-right-radius:  15px;
+	border-top-right-radius: 15px;
+	position: relative;
+	left:-25px;
+	width: 500px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 15px;
+}
+
+.sp{
+	margin:  0 45px;
+}
+.comment{
+	width: 65%;
+	height: auto;
+	background-color: transparent;
+	position: relative;
+	left: 15px;
+}
+.comment_h_div{
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+	padding: 5px;
+	background-color: #7FFEFF;
+}
+.comment_head{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	line-height: 0px;
+}
+.nick{
+	display: inline;
+	vertical-align: top;
+	font-size: 15px;
+	font-family: "ºÚÌå";
+}
+.comm_content{
+	border-radius: 10px;
+	width: 500px;
+	height: auto;
+	border:1px solid #C2BEB0;
+}
+.pubcomm{
+	width: 550px;
+	height: 250px;
+	background-color: transparent;
+	position: relative;
+	left: 20px;
+	margin: 80px 0 0 0;
+}
+.art_content{
+	width: 550px;
+	word-wrap:break-word;
+	font-family: myFirstFont;
+	line-height: 25px;
+	
+}
+.i-tag{
+	font-size: 13px;
+}
+.fa-folder{
+	margin-left: 10px;
+}
+.fa-comments{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.fa-tag{
+	margin-left: 8px;
+	margin-right: 0px;
+}
+.art_img{  
+    width: auto;  
+    height: auto;  
+    max-width: 70%;  
+    max-height: 70%;
+    display: block;     
+} 
+.logreg{
+	padding: 20px 0 20px 0px;
+	height: auto;
+	width: 95%;
+	background-color:#E1F6F5;
+	border-radius: 10px;
+	margin: 20px auto;
+	vertical-align: middle;
+}
+.php_1{
+	color:  brown;
+	font-weight: bold;
+}
+.logout{
+	text-decoration: none;
+	color:black;
+}
+.logout:hover{
+	color:#FB9BE9;
+}
+.clean{
+	clear: both;
+}

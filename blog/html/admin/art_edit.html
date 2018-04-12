@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../css/admin/art_add.css?v=3/10">
+	<link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css">
+	<title>kuromi的blog</title>
+	
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="banner1"><img src="../../image/logo.PNG"></div>
+			<div class="banner2"><img src="../../image/picture22.PNG"></div>
+			
+			<div class="clean"></div>     
+		</div>
+		<div class="navigation">
+		  <ul>  
+			<li><a  href ="../../" title="首页"><sapn class="fa fa-home fa-fg "></sapn>首页</a></li>
+			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o"></span>文章</a></li>
+			<li><a  href ="" title="关于"><span class="fa fa-info-circle"></span>关于</a></li>
+			<li><a  href ="" title="留言"><span class="fa fa-commenting-o"></span>留言</a></li>
+			<?php if(@$_COOKIE['username']=='admin'){ echo
+			'<li><a  href ="./manage.php" title="管理"><span class="fa fa-cog fa-spin"></span>管理</a></li>';
+			}?>
+		  </ul>
+		</div>
+		<div class="grayblock">
+			
+		</div>
+		<div class="content">
+            <div class="add_cat">
+            	<form method="post" enctype="multipart/form-data">
+            		<div class="art_div"><span>文章栏目:</span>
+            			<select name='cat_id' class="art_select">
+            			<?php foreach($rows as $r){?>
+            			<option value="<?php echo $r['cat_id'];?>"
+            				<?php if($r['cat_id']==$row['cat_id']){ $pre=$r['cat_id']; echo "selected='selected'";}?>> 
+            				<?php echo $r['cat_name'];?></option>	
+            				<?php }?>
+            			<!--option value="<?php echo $row['cat_id'];?>" selected="selected"><?php echo $row['cat_name'];?>
+            			</option-->
+            			</select></div>
+            		<input type="" name="pre_cat_id"  value="<?php echo $row['cat_id'];?>" style="display: none; ">
+            		<div class="art_div"><span>文章标题:</span><input type="text" name="title" value="<?php echo $row['title'];?>" /></div>
+            		<div class="art_div"><span>&nbsp;&nbsp;Tag:&nbsp;&nbsp;&nbsp;</span><input type="text" name="tag" value="<?php echo $row['tag'];?>" /></div>
+            		<div class="art_div"><span>文章内容:</span><textarea name="content"><?php echo $row['content'];?>
+            		</textarea></div>
+            		<div class="art_div"><span>文章图片:</span><input type="file" name="picture"></div>
+                    <input type="submit" value="修改">
+            	</form>
+            </div>
+            <div class="list">
+            	<div class="manage_cat">
+					<h1><span class="fa fa-folder-o">栏目管理</span></h1>
+					<hr/>
+					<ul>
+						<li class="manage"><a class="a_manage" href="./cat_list.php">栏目列表</a></li>
+						<li class="manage"><a class="a_manage" href="./cat_add.php">添加栏目</a></li>
+					</ul>
+			   </div>
+			   <div class="manage_art">
+				<h1><span class="fa fa-newspaper-o">文章管理</span></h1>
+					<hr/>
+					<ul>
+						<li class="manage"><a class="a_manage" href="./art_list.php">文章列表</a></li>
+						<li class="manage"><a class="a_manage" href="./art_add.php">添加文章</a></li>
+					</ul>
+				</div>
+				<div class="manage_admin">
+				<h1><span class="fa fa-user-circle">个人中心</span></h1>
+					<hr/>
+					<ul>
+					<li class="manage"><a class="a_manage" href="">信息管理</a></li>
+					<li class="manage"><a class="a_manage" href="">退出登录</a></li>
+					</ul>
+				</div>
+            </div>
+			<div class="clean"></div>
+		</div>
+    </div>
+</body>
+</html>

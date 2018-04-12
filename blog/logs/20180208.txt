@@ -1,0 +1,3712 @@
+-----------------------------------
+2018/02/08 14:42:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:42:21
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:42:24
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:42:24
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:42:26
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:42:28
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:46
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:47
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:49
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:50
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:50:53
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:51:00
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:51:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:51:03
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:51:58
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:09
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:09
+insert into article (title,content,cat_id) value ('《文明6：迭起兴衰》今日正式发售！','《文明6：迭起兴衰》为游戏追加了八个全新的文明及其领袖，八个新奇观、七个新自然奇观以及一些新单位；还增加了“黄金时代”、“黑暗时代”、“紧急情况”、“忠诚度”等新概念。
+
+　　此次追加的新文明及领袖分别是：
+
+　　高丽文明：善德女王
+　　荷兰文明：威廉明娜女王
+　　蒙古文明：成吉思汗
+　　印度文明：旃陀罗笈多（月护王）
+　　克里族文明：庞德梅克
+　　格鲁吉亚文明：塔玛丽
+　　苏格兰文明：罗伯特一世
+　　马普切文明：莱夫扎茹
+　　祖鲁文明：恰卡','5')
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:09
+update category set art_num=art_num+1 where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:52:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:24
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:24
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:30
+select cat_id from article where art_id=1
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:30
+delete from article where art_id =1
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:30
+update category set art_num=art_num-1 where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:30
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:53:32
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:54:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:54:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:54:58
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:54:58
+insert into article (title,content,cat_id) value ('《绝地求生大逃杀》今日更新上线新反作弊','在之前的报道中，我们已经提及了《绝地求生大逃杀（PlayerUnknown’s 
+Battlegrounds）》官方之前测试的新反作弊系统，因为兼容性问题而延期上
+线，而在今日的更新中，这项功能将正式上线，同时此次更新还将对游戏的
+轰炸区音效进行调整。
+
+　　由于担心被外挂开发者利用，官方一般不会公布新增的反外挂机制的相关细节。
+　此次更新中游戏轰炸区音效具体的改进如下：
+
+　　·　为了解决炮弹同时爆炸时声音过大的问题，调低了该部分的音量
+
+　　·　为了优化游戏客户端性能， 减少了炮弹爆炸时发生的爆炸音
+
+　　·　修复了炮弹爆炸时间歇性爆炸音效缺失的Bug','5')
+-----------------------------------
+-----------------------------------
+2018/02/08 14:54:58
+update category set art_num=art_num+1 where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 14:55:00
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:55:00
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 14:55:33
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:39
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:40
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:46
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:47
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:52
+insert into article (title,content,cat_id) value ('《河洛群侠传》两新角色','今日国产RPG游戏《河洛群侠传》的制作团队发布了一张狗年春节贺图，同时
+还曝光了王喆、颜玉书两位全新的角色。《河洛群侠传》以江湖冒险为主
+题，设定为开放的武侠世界，目前已在整合测试当中，预计于2018年暑期上线
+以下是两位角色的详细介绍：
+
+问道终南——王喆
+
+　　当年狼蛮入侵中原之时，王喆与其义兄李彦仙来到了西南方筹组义
+军，希望藉由打游击战扰乱狼蛮军。然而不知为何，战争结束后李彦仙失
+踪了好一段时间，而李彦仙失踪的这一段日子，便由王喆主持擎天寨的事
+务。然则，擎天寨的三寨主战胤飞蠢蠢欲动，此时的擎天寨中似乎笼罩了武学活典——颜玉书
+
+　　赋闲书院当代主人，也是历代唯一的女性。看似弱不禁风，实则博通
+百家武学，江湖上几无她不识的武功。然则颜玉书平日只隐身在藏书阁中
+观览群书，性子冰冷，除了自诩为“天下第二痴人”的东方迟外，颜玉书
+几不与人往来。然则为何这么一个淡漠的少女会成为书院的主人，并跟天
+下绝顶高手东方迟如此亲近？颜玉书的身分与来历，不禁令人好奇……一层阴影……','5')
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:52
+update category set art_num=art_num+1 where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:54
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 14:57:54
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:19
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:39
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:39
+insert into article (title,content,cat_id) value ('紫罗兰永恒花园','薇欧瑞特在战场上听到了无法忘却的话语。那是一个对她而言比谁都重要的
+人告诉她的“―――”她没有理解话语的意思。某个时代的一个切尔西斯大
+陆。持续了四年的南北分割的战争结束了，人们迎来了新的时代。曾经被称
+做“武器”的少女，薇欧瑞特·艾弗戈登，离开了战场后，想在C·H邮政迎来新的人生薇欧瑞特在战场上听到了无法忘却的话语','6')
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:39
+update category set art_num=art_num+1 where cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:41
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:43
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:03:43
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:04:11
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:04:11
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:04:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:04:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:23:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:23:50
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:25:32
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:25:32
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:26:32
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:26:32
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:27:07
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:27:07
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:27:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:27:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:20
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:20
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:34
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:51
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:51
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:28:54
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:29:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:29:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:29:19
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:29:19
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:31:44
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:31:44
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:31:45
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:31:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:08
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:08
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:12
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:29
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:29
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:48
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:32:48
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:33:57
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:33:57
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:12
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:34:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:05
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:05
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:25
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:25
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:29
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:29
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:32
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:36:32
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:16
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:16
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:32
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:32
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:43
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:43
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:53
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:37:53
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:38:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:38:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:39:49
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:39:49
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:04
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:04
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:08
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:08
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:11
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:11
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:11
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:11
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:12
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:14
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:16
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:16
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:16
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:16
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:20
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:20
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:21
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:31
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:31
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:33
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:33
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:33
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:33
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:34
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:50
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:51
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:40:51
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:46
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:47
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:47
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:58
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:41:58
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:42:39
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:42:39
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 15:43:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:43:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 15:43:19
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 15:43:19
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:00:42
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:00:42
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:00:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:00:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:01
+select count(*) from article where cat_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:01
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:03
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:03
+select count(*) from article where cat_id='6'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:03
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:09
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:09
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:11
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:11
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:19
+select count(*) from category where cat_name='CSS'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:19
+insert into category (cat_name) value ('CSS')
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:23
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:23
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:25
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:01:25
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:13
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:13
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:15
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:15
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:15
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:17
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:19
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:19
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:19
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:19
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:21
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:21
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:21
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:47
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:47
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:47
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:47
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:49
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:49
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:49
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:49
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:50
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:03:50
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:04:49
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:04:49
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:28
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:28
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:29
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:29
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:30
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:30
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:31
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:31
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:34
+select count(*) from article where cat_id='6'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:34
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=6
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:35
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:35
+select count(*) from article where cat_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:35
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id where article.cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:37
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:37
+select count(*) from article where cat_id='7'
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:37
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 16:05:37
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:13:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 18:13:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:14:05
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 18:14:05
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:21:50
+select count(*) from category where cat_name='JavaScript'
+-----------------------------------
+-----------------------------------
+2018/02/08 18:21:50
+insert into category (cat_name) value ('JavaScript')
+-----------------------------------
+-----------------------------------
+2018/02/08 18:22:00
+select count(*) from category where cat_name='PHP'
+-----------------------------------
+-----------------------------------
+2018/02/08 18:22:00
+insert into category (cat_name) value ('PHP')
+-----------------------------------
+-----------------------------------
+2018/02/08 18:22:26
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 18:22:26
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:25:43
+select count(*) from category where cat_name='哲♂学'
+-----------------------------------
+-----------------------------------
+2018/02/08 18:25:43
+insert into category (cat_name) value ('哲♂学')
+-----------------------------------
+-----------------------------------
+2018/02/08 18:25:50
+select count(*) from category where cat_name='哲♂学'
+-----------------------------------
+-----------------------------------
+2018/02/08 18:25:52
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 18:25:52
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:31:48
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 18:31:48
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 18:31:53
+select count(*) from category where cat_name='呼呼'
+-----------------------------------
+-----------------------------------
+2018/02/08 18:31:53
+insert into category (cat_name) value ('呼呼')
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:15
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:22
+select art_num from category where cat_id=11
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:22
+delete from category where cat_id =11
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:22
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:44
+select count(*) from category where cat_name='哲♂♂学'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:44
+update category set cat_name='哲♂♂学'where cat_id =10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:45
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:48
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:51
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:18:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:03
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:03
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:17
+select count(*) from article where art_id='2'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:17
+update article set title='《绝地求生大逃杀》今日更新上线新反作弊！',content='在之前的报道中，我们已经提及了《绝地求生大逃杀（PlayerUnknown’s 
+Battlegrounds）》官方之前测试的新反作弊系统，因为兼容性问题而延期上
+线，而在今日的更新中，这项功能将正式上线，同时此次更新还将对游戏的
+轰炸区音效进行调整。
+
+　　由于担心被外挂开发者利用，官方一般不会公布新增的反外挂机制的相关细节。
+　此次更新中游戏轰炸区音效具体的改进如下：
+
+　　·　为了解决炮弹同时爆炸时声音过大的问题，调低了该部分的音量
+
+　　·　为了优化游戏客户端性能， 减少了炮弹爆炸时发生的爆炸音
+
+　　·　修复了炮弹爆炸时间歇性爆炸音效缺失的Bug',cat_id='5'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:17
+select cat_id,cat_name from category where cat_id!=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:58
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:19:58
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:00
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:13
+select cat_id from article where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:13
+delete from article where art_id =2
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:13
+update category set art_num=art_num-1 where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:13
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:15
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:15
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:20
+select count(*) from article where art_id='3'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:20
+update article set title='《河洛群侠传》两新角色公布',content='今日国产RPG游戏《河洛群侠传》的制作团队发布了一张狗年春节贺图，同时
+还曝光了王喆、颜玉书两位全新的角色。《河洛群侠传》以江湖冒险为主
+题，设定为开放的武侠世界，目前已在整合测试当中，预计于2018年暑期上线
+以下是两位角色的详细介绍：
+
+问道终南——王喆
+
+　　当年狼蛮入侵中原之时，王喆与其义兄李彦仙来到了西南方筹组义
+军，希望藉由打游击战扰乱狼蛮军。然而不知为何，战争结束后李彦仙失
+踪了好一段时间，而李彦仙失踪的这一段日子，便由王喆主持擎天寨的事
+务。然则，擎天寨的三寨主战胤飞蠢蠢欲动，此时的擎天寨中似乎笼罩了武学活典——颜玉书
+
+　　赋闲书院当代主人，也是历代唯一的女性。看似弱不禁风，实则博通
+百家武学，江湖上几无她不识的武功。然则颜玉书平日只隐身在藏书阁中
+观览群书，性子冰冷，除了自诩为“天下第二痴人”的东方迟外，颜玉书
+几不与人往来。然则为何这么一个淡漠的少女会成为书院的主人，并跟天
+下绝顶高手东方迟如此亲近？颜玉书的身分与来历，不禁令人好奇……一层阴影……',cat_id='5'where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:20
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:20
+select cat_id,cat_name from category where cat_id!=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:38
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:39
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:41
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:42
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:45
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:59
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:59
+insert into article (title,content,cat_id) value ('比利','平家boy','10')
+-----------------------------------
+-----------------------------------
+2018/02/08 19:20:59
+update category set art_num=art_num+1 where cat_id=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:00
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:04
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:13
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:14
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:17
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:18
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:21:18
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:04
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:06
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:06
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:15
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:15
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:15
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:15
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:22
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:32
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:22:32
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:23:06
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:23:06
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:23:06
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:23:06
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:12
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:13
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:13
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:16
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:16
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:16
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:25:16
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:06
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:06
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:08
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:11
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:14
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:17
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:19
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:20
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:20
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:26:20
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:04
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:11
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:12
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:12
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:14
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:15
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:15
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:27:15
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:22
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:22
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:24
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:26
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:26
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:29:29
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:31:01
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:31:04
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:25
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:25
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:28
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:28
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:28
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:32:28
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 19:33:57
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 19:33:57
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:04
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:06
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:06
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:09
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:09
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:09
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 19:34:09
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:36
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:37
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:37
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:40
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:40
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:40
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:05:40
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:23
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:24
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:26
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:26
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:30
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:30
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:30
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:06:30
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:20
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:20
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:22
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:24
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:24
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:27
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:28
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:28
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:28
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:33
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:35
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:07:35
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:31
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:31
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:43
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:43
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:43
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:08:43
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:01
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:03
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:03
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:19
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:19
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:19
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:09:19
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:45
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:45
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:49
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:49
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:52
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:57
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:59
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:14:59
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:45
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:49
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:49
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:15:51
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:10
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:11
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:13
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:13
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:16
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:16
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:16
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:16
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:17
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:23
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:23
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:55
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:56
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:56
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:59
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:59
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:59
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:18:59
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:00
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:00
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:04
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:04
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:04
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:05
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:19:05
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:20:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:20:50
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:20:50
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:02
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:02
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:02
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:02
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:37
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:37
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:39
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:40
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:40
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:43
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:43
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:43
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:43
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:44
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:44
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:57
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:21:57
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:16
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:16
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:19
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:20
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:20
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:23
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:23
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:23
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:23
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:54
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:54
+select art_id,title,content,last_modify_time,comment,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:56
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:58
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:25:58
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:00
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:00
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:00
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:00
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:01
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:26:01
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:29:47
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:29:47
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:29:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:04
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:08
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:08
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:08
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:08
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:09
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:09
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:40
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:43
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:47
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:47
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:52
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:57
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:57
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:57
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:57
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:58
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:30:58
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:30
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:31
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:31
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:31:34
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:56:15
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:45
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:45
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:53
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:53
+update article set title='比利海灵顿2',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:53
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:53
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:54
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:54
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:58:58
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:00
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:04
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:14
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:14
+update article set title='比利海灵顿',content='平家boy',cat_id='6'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:14
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:14
+select cat_id,cat_name from category where cat_id!=6
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:15
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:15
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 20:59:16
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:25
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:27
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:27
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:30
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:30
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:30
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:30
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:31
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:31
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:53
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:53
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:56
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:56
+update article set title='比利海灵顿',content='平家boy',cat_id='6'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:56
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:56
+select cat_id,cat_name from category where cat_id!=6
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:57
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:00:57
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:01
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:01
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:01
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:01
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:02
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:01:02
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:03
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:03
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:09
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:09
+update article set title='比利海灵顿',content='平家boy',cat_id='6'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:09
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:09
+select cat_id,cat_name from category where cat_id!=6
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:12
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:02:12
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:04:57
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:01
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:03
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:03
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:07
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:07
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:07
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:07
+select cat_id,cat_name from category where cat_id!=10
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:08
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:08
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:09
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:11
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:05:36
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:06:55
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:06:57
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:06:57
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:05
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:05
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:07
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:07
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:08
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:07:08
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:18
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:20
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:20
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:22
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:22
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:23
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:11:23
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:03
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:09
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:13
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:52
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:56
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:59
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:18:59
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:19:01
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:19:01
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:19:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:19:04
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:11
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:11
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:13
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:14
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:16
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:16
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:45
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:45
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:45
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:48
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:48
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:50
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:20:50
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:34
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:37
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:37
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:40
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:40
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:43
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:26:43
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:15
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:17
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:19
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:19
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:19
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:32
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:32
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:35
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:36
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:36
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:38
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:38
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:43
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:27:43
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:11
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:11
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:11
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:14
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:14
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:17
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:57
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:59
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:28:59
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:35
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:36
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:36
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:40
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:40
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:42
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:29:42
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:08
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:13
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:13
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:19
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:19
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:21
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:21
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:45
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:45
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:47
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:47
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:56
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:58
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:32:58
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:13
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:13
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:16
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:17
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:17
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:20
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:20
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:23
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:23
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:31
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:34:32
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:40:11
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:40:13
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:40:13
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:40:29
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:40:29
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:09
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:11
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:11
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:17
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:17
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:18
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:42:18
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:45:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:08
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:08
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:13
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:13
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:14
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:46:14
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:07
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:08
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:08
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:14
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:14
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:16
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:47:16
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:03
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:03
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:05
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:05
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:06
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:06
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:26
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:26
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:28
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:28
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:43
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:45
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:45
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:48
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:48
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:48
+update category set art_num=art_num+1 where cat_id='10'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:48
+update category set art_num=art_num-1 where cat_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:49
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:49
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:48:51
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:49:58
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:03
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:04
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:08
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:08
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:08
+update category set art_num=art_num+1 where cat_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:08
+update category set art_num=art_num-1 where cat_id='10'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:09
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:09
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:17
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:21
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:24
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:26
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:27
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:27
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:34
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:34
+update article set title='比利海灵顿',content='平家boy',cat_id='5'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:35
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:35
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:38
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:40
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:41
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:41
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:44
+select count(*) from article where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:44
+update article set title='比利海灵顿',content='平家boy',cat_id='10'where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:44
+update category set art_num=art_num+1 where cat_id='10'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:44
+update category set art_num=art_num-1 where cat_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:45
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id='5'
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:45
+select cat_id,cat_name from category 
+-----------------------------------
+-----------------------------------
+2018/02/08 21:50:46
+select * from category
+-----------------------------------

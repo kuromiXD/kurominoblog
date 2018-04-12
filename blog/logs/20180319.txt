@@ -1,0 +1,54 @@
+2018/03/19 03:18:15select cat_id,cat_name from category-----------------------------------
+2018/03/19 03:18:15select count(*) from article-----------------------------------
+2018/03/19 03:18:15select art_id,title,content,last_modify_time,comment,thumb,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3-----------------------------------
+2018/03/19 03:18:40select cat_id,cat_name from category-----------------------------------
+2018/03/19 03:18:40select count(*) from article-----------------------------------
+2018/03/19 03:18:40select art_id,title,content,last_modify_time,comment,thumb,tag,category.cat_id,cat_name from article inner join category on article.cat_id=category.cat_id order by art_id desc limit 0,3-----------------------------------
+-----------------------------------
+2018/03/19 11:20:49
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:20:49
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:20:49
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:21:35
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:21:35
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:21:35
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:22:44
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:22:44
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:22:44
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:24:52
+select 1 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:24:52
+select md5 from user where username='admin'
+-----------------------------------
+-----------------------------------
+2018/03/19 11:24:52
+select 1 from user where password='237b59d4007483ede93d2285a19c7714'
+-----------------------------------

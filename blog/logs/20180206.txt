@@ -1,0 +1,1472 @@
+-----------------------------------
+2018/02/06 12:09:28
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:09:31
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:13:15
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:13:26
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:14:02
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:14:02
+insert into article (title,content,cat_id) value ('昨天心情','有一点不好:>','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:14:02
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:14:08
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:48
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:49
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:21:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:03
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:05
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:07
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:45
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:22:55
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:06
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:11
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:34
+select count(*) from category where cat_name='最近心情'
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:34
+update category set cat_name='最近心情'where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:35
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:23:41
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:27:48
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:27:48
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:03
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:09
+select count(*) from category where cat_name='呼呼'
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:09
+insert into category (cat_name) value ('呼呼')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:11
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:13
+select art_num from category where cat_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:13
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:13
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:16
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:18
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:44
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:49
+select art_num from category where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:34:50
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:31
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:32
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:35
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:35
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:45
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:45
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:46
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:36:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:33
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:35
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:36
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:37
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:44
+delete from category where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:45
+delete from category where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:45
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:46
+delete from category where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:46
+delete from category where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:48
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:48
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:49
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:49
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:49
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:49
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:50
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:50
+delete from category where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:53
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:53
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:37:57
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:38:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:38:32
+delete from article where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:38:32
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:38:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:38:46
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:23
+select count(*) from category where cat_name='心情'
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:23
+insert into category (cat_name) value ('心情')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:25
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:28
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:35
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:35
+insert into article (title,content,cat_id) value ('妈妈咪','飒飒','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:35
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:45
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:45
+insert into article (title,content,cat_id) value ('昨天的心情','糟糕','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:45
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:47
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:53
+delete from article where cat_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:39:53
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:01
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:03
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:38
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:38
+insert into article (title,content,cat_id) value ('飒飒','飒飒','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:38
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:49
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:49
+insert into article (title,content,cat_id) value ('昨天的心情','糟糕','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:49
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:51
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:54
+delete from article where art_id =1
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:54
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 12:40:59
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:05:09
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:05:14
+select count(*) from category where cat_name='呼呼'
+-----------------------------------
+-----------------------------------
+2018/02/06 13:05:14
+insert into category (cat_name) value ('呼呼')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:06:58
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:00
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:01
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:05
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:05
+insert into article (title,content,cat_id) value ('飒飒','倒萨','1')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:05
+update category set art_num=art_num+1 where cat_id=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:11
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:11
+insert into article (title,content,cat_id) value ('飒飒的','小阿三','2')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:11
+update category set art_num=art_num+1 where cat_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:07:13
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:18:43
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:22:26
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:22:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:22:55
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:22:58
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=4
+-----------------------------------
+-----------------------------------
+2018/02/06 13:23:50
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:24:33
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:30
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:36
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:36
+insert into article (title,content,cat_id) value ('洒下','存储','2')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:36
+update category set art_num=art_num+1 where cat_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:25:39
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:26:38
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:26:40
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/06 13:48:33
+select count(*) from category where cat_name='妈妈咪'
+-----------------------------------
+-----------------------------------
+2018/02/06 13:48:33
+insert into category (cat_name) value ('妈妈咪')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:49:19
+select count(*) from category where cat_name='妈妈咪'
+-----------------------------------
+-----------------------------------
+2018/02/06 13:49:22
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:49:24
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:49:25
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:49:25
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:07
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:07
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:14
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:15
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:23
+select count(*) from category where cat_name='酷酷'
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:23
+update category set cat_name='酷酷'where cat_id =3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:24
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:29
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:34
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:41
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:41
+insert into article (title,content,cat_id) value ('下','星','3')
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:41
+update category set art_num=art_num+1 where cat_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:43
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:46
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/06 13:51:46
+select cat_id,cat_name from category where cat_id!=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:53:58
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=5
+-----------------------------------
+-----------------------------------
+2018/02/06 13:53:58
+select cat_id,cat_name from category where cat_id!=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:22
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:25
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:25
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:28
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:29
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:54:29
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:56:27
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:56:27
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 13:57:13
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 13:57:13
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:05:18
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:05:18
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:07
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:07
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select art_id,title,last_modify_time,comment,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:10:08
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:20:50
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:20:53
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:20:53
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:23:22
+select count(*) from category where cat_name='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 14:24:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:24:53
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:24:53
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:25:03
+select count(*) from category where cat_name='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 14:25:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:25:52
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:25:54
+select count(*) from category where cat_name='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 14:26:30
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:26:30
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:13
+update article set title='金天的心情',content='糟糕'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:17
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:20
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:22
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:22
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:27:31
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:09
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:10
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:10
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:12
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:12
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:48
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:48
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:28:49
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:29:14
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:29:14
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:29:15
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:30:03
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:30:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:30:04
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:30:10
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:32:21
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:32:29
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:32:30
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:32:30
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:32:42
+update article set title='金天的心情',content='糟糕的一笔'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:33:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:33:45
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:33:45
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:35:19
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:35:20
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:35:20
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:36:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:36:48
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:36:48
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:42:03
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:42:05
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:42:05
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:43:26
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:43:26
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:01
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:01
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:47
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:47
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:54
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:44:54
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:47:46
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:48:14
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:48:14
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:49:00
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:49:07
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:49:18
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:49:18
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:50:04
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:50:04
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:54:18
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:54:19
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:54:19
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:57:11
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:57:11
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:57:49
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:57:49
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:58:01
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 14:58:01
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:30
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:32
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:32
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:35
+update article set title='飒飒是',content='倒萨'where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:35
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:35
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:48
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:48
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:50
+update article set title='飒飒是',content='倒萨'where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:50
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:50
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:52
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:56
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:56
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:59
+update article set title='飒飒是',content='倒萨'where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:59
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 14:59:59
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:02
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:52
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:52
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:54
+update article set title='飒飒是',content='倒萨',cat_id='3'where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:54
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=3
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:54
+select cat_id,cat_name from category where cat_id!=3
+-----------------------------------
+-----------------------------------
+2018/02/06 15:00:56
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 15:10:26
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:10:26
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:12:27
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:12:27
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:13:46
+select count(*) from article where art_id='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:13:46
+update article set title='金天的心情4',content='糟糕的一笔',cat_id='1'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:13:46
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:13:46
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:13:51
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 15:17:38
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:17:47
+select count(*) from category where cat_name='心情'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:18:19
+select count(*) from category where cat_name='哦胡'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:18:48
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:18:53
+select count(*) from category where cat_name='哦胡'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:30
+select cat_id,cat_name from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:32
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:34
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+	on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:34
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:39
+select count(*) from article where art_id='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:39
+update article set title='金天的心情1',content='糟糕的一笔',cat_id='1'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:39
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:39
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:42
+select count(*) from article where art_id='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:42
+update article set title='金天的心情12',content='糟糕的一笔',cat_id='1'where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:42
+select art_id,title,category.cat_id,cat_name,content from article left join category 
+		on category.cat_id=article.cat_id where art_id=2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:42
+select cat_id,cat_name from category where cat_id!=1
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:44
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
+-----------------------------------
+2018/02/06 15:19:46
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:23:13
+select count(*) from category where cat_name='4369'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:23:24
+select count(*) from category where cat_name='美丽'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:23:28
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:23:35
+select count(*) from category where cat_name='meili'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:37:45
+select count(*) from category where cat_name='cds'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:02
+select count(*) from category where cat_name='cds'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:02
+insert into category (cat_name) value ('cds')
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:04
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:23
+select count(*) from category where cat_name='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:23
+insert into category (cat_name) value ('2')
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:28
+select count(*) from category where cat_name='2'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:30
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+select art_num from category where cat_id=5
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+delete from category where cat_id =5
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+select art_num from category where cat_id=4
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+delete from category where cat_id =4
+-----------------------------------
+-----------------------------------
+2018/02/06 15:52:32
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:33
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:40
+select count(*) from category where cat_name='呼呼'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:41
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:49
+select count(*) from category where cat_name='吗盲目'
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:49
+update category set cat_name='吗盲目'where cat_id =2
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:50
+select * from category
+-----------------------------------
+-----------------------------------
+2018/02/06 15:53:55
+select art_id,title,last_modify_time,comment,cat_name from article left join category on article.cat_id=category.cat_id
+-----------------------------------
