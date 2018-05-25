@@ -1,19 +1,27 @@
-var a=document.getElementsByClassName('list_button');
-var b=document.getElementsByClassName('list_input1');
-var c=document.getElementsByClassName('list_input2');
-for(var x=0;x<b.length;x++){
-	b[x].style.display="none";
 
+
+var a=$('.list_button');
+var b=$('.list_input1');
+var c=$('.list_input2');
+b.each(function(){
+    $(this).css("display","none");
+});
+
+c.each(function(){
+    $(this).css("display","none");
+});
+
+for (var i = 0; i < a.length; i++) {
+    (
+        function(i){
+            a.eq(i).click(function(){
+                b.css("display","none");
+                c.css("display","none");
+                a.css("display","");
+                b.eq(i).css("display","");
+                c.eq(i).css("display","");
+                a.eq(i).css("display","none");
+            })
+        }   
+    )(i)
 }
-for(var y=0;y<c.length;y++){
-    c[y].style.display="none";
-}
- for (var i = 0; i < a.length; i++) {
-        (function(i) {
-            a[i].onclick = function() {
-                b[i].style.display="";
-                c[i].style.display="";
-                a[i].style.display="none";
-            }
-        })(i)
-    }

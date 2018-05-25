@@ -12,6 +12,7 @@ class _Makeshufflestr implements Makeshufflestr{
 	$obj=new _Makeshufflestr();
      
      $url_identi_code1=make_identi_code($obj);
-     echo $url_identi_code1;
+     header('Content-Type:application/json');
+     echo json_encode($url_identi_code1);
 
 ?>

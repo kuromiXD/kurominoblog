@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="zn">
 <head>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/viewer/index__style.css?v=4/2.2">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/viewer/index__style.css?v=4/21.2">
 	<title>kuromi的blog</title>
 </head>
 <body>
@@ -40,7 +40,7 @@
                 	<?php if($a['thumb']) {?>
                 	<img  class="thumb_img" src="<?php echo $a['thumb'];?>">
                 	<?php }?>
-                    <pre class="p_content" style="font-family: myFirstFont;margin: 15px 0"><?php $content= mb_substr($a['content'],0,150,'utf-8');echo $content,"<a class='fa-a' href='php/viewer/art.php?art_id=$a[art_id]'>","......","<span class='php' style='color: red'>","<br/>（阅读全文）","</span>","</a>";?></pre>
+                    <p class="p_content" style="font-family: myFirstFont;margin: 15px 0"><?php $content= mb_substr($a['content'],0,150,'utf-8');echo $content,"<a class='fa-a' href='php/viewer/art.php?art_id=$a[art_id]'>","......","<span class='php' style='color: red'>","<br/>（阅读全文）","</span>","</a>";?></p>
                     <div class="black_tag">
                     	<span class="sp fa fa-folder"><?php echo
                     	"<a class='fa-a' href='index.php?cat_id=$a[cat_id]'>","<span class='php'>",

@@ -1,4 +1,4 @@
-var xmlHttp;
+/*var xmlHttp;
 var obj;
 function GetXmlHttpRequest(){
 	if(window.XMLHttpRequest){
@@ -48,4 +48,48 @@ function validate(str,object,flag){
 	xmlHttp.open("GET",url,true);
 	xmlHttp.send();	
 }
+<input type="password" name="password" class="login_input" placeholder="6-12位英文字母,数字" onkeyup="validate(this.value,document.getElementsByClassName('validate')[1],2)">
+<input type="text" name="username" class="login_input" placeholder="1-12位汉字,英文字母,数字或下划线组成" onkeyup="validate(this.value,document.getElementsByClassName('validate')[0],1)">
+*/
+var post_url='../../php/viewer/regis_validate.php';
+$(document).ready(function(){
 
+	$("#username").keyup(function(){
+		var a=$('#username').serializeArray();
+		var b=JSON.stringify(a);
+		$.ajax({
+				url:post_url,
+				data:{"username":b},
+				type:'post',
+				dataType:'json',
+				success:function(data){
+					$(".validate").eq(0).html(data.result);
+					if(data.success==0){
+						$("#username").css("border-color","red");
+					} else {
+						$("#username").css("border-color","green");
+					}
+				}
+		});
+	});
+
+	$("#password").keyup(function(){
+		var a=$('#password').serializeArray();
+		var b=JSON.stringify(a);
+		$.ajax({
+				url:post_url,
+				data:{"password":b},
+				type:'post',
+				dataType:'json',
+				success:function(data){
+					$(".validate").eq(1).html(data.result);
+					if(data.success==0){
+						$("#password").css("border-color","red");
+					} else {
+						$("#password").css("border-color","green");
+					}
+				}
+		});
+	});
+
+});

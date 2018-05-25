@@ -22,9 +22,11 @@
 			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o">文章</span></a></li>
 			<li><a  href ="" title="关于"><span class="fa fa-info-circle">关于</span></a></li>
 			<li><a  href ="" title="留言"><span class="fa fa-commenting-o">留言</span></a></li>
+
 			<?php if(@$_COOKIE['username']=='admin'){ echo
 			'<li><a  href ="./php/admin/manage.php" title="管理"><span class="fa fa-cog fa-spin"></span>管理</a></li>';
 			}?>
+
 		  </ul>
 		</div>
 		<div class="grayblock">
@@ -32,23 +34,25 @@
 		</div>
 		<div class="content">
 			<div class="login">
-				<div class="login_1"><form method="post">
-					
-						用户名：<input type="text" name="username" class="login_input" placeholder="1-12位汉字,英文字母,数字或下划线组成" onkeyup="validate(this.value,document.getElementsByClassName('validate')[0],1)">
+				<div class="login_1">
+					<form method="post">
+						用户名：<input type="text" name="username" class="login_input" id="username" placeholder=
+							"1-12位汉字,英文字母,数字或下划线组成">
 						<div class="validate"></div>
-						密码:<input type="password" name="password" class="login_input" placeholder="6-12位英文字母,数字" onkeyup="validate(this.value,document.getElementsByClassName('validate')[1],2)">
+						密码:<input type="password" name="password" class="login_input" id="password" placeholder=
+							"6-12位英文字母,数字">
 						<div class="validate"></div>
 						<input type="submit" name="" value="注册" >
-						
 						<a href="../../index.php"><button type="button">放弃</button></a>
 						<div class="validate"></div>
-				</form>
+					</form>
 				</div>
 				
 			</div>
 			<div class="clean"></div>
 		</div>
     </div>
-    <script type="text/javascript" src="../../js/regis_ajax.js?v=3/25.1"></script>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/regis_ajax.js?v=5/25.3"></script>
 </body>
 </html>

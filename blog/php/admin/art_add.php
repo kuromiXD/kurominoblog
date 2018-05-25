@@ -56,7 +56,7 @@ else {
 		echo '<meta http-equiv="refresh" content="0;url=art_add.php">';
 		exit();
 	}
-	if ($mysql->PDO_get_one('select 1 from article where title ='.$art[':title'])!=false) {
+	if ($mysql->PDO_get_one("select 1 from article where title ='".$art[':title']."'")!=false) {
 		echo "<script>alert('文章标题已存在！');</script>";
 		echo '<meta http-equiv="refresh" content="0;url=art_add.php">';
 		exit();

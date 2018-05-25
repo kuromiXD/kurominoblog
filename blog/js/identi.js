@@ -1,4 +1,4 @@
-var xmlHttp;
+/*var xmlHttp;
 function GetXmlHttpRequest(){
 	if(window.XMLHttpRequest){
 		xmlHttp=new XMLHttpRequest();
@@ -16,12 +16,9 @@ function statechange(){
 		var n_img=document.createElement("img");
 		var f_img=document.getElementsByClassName('identi_pic')[0];
 		parent.replaceChild(n_img,f_img);
-		//document.getElementsByName('identi_pic')[0].src=xmlHttp.responseText;
-		//document.getElementById('vv').appendChild(img);
 		n_img.src=xmlHttp.responseText;
 		n_img.setAttribute('class', 'identi_pic');
 		n_img.setAttribute('onclick','identi()');
-			//document.getElementsByClassName('validate')[0].innerHTML=xmlHttp.responseText;
 		}
 }
 function identi(){
@@ -36,4 +33,17 @@ function identi(){
   	xmlHttp.onreadystatechange=statechange;
   	xmlHttp.open("GET",url,true);
 	xmlHttp.send(); 
+}*/
+function identi(){
+
+  	var url="../../php/viewer/identi.php";
+	url=url+"?sid="+Math.random();
+    $.getJSON(url,function(result){
+    	var img=$("<img/>");
+    	$(".identi_pic").eq(0).replaceWith(img);
+    	img.addClass("identi_pic");
+    	img.attr("src",result);
+    	img.click(identi);
+    });
 }
+  $(".identi_pic").eq(0).click(identi);

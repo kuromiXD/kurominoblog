@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/viewer/index__style.css?v=4/21.2">
+	<title>kuromi的blog</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="banner1"><img src="./image/logo.PNG"></div>
+			<div class="banner2"><img src="./image/picture22.PNG"></div>
+			<div class="clean"></div>     
+		</div>
+		<div class="navigation">
+		  <ul>  
+			<li><a  href ="./index.php" title="首页"><sapn class="fa fa-home fa-fg ">首页</sapn></a></li>
+			<li><a  href ="" title="文章"><span class="fa fa-newspaper-o">文章</span></a></li>
+			<li><a  href ="" title="关于"><span class="fa fa-info-circle">关于</span></a></li>
+			<li><a  href ="" title="留言"><span class="fa fa-commenting-o">留言</span></a></li>
+					  </ul>
+		</div>
+		<div class="grayblock">
+		</div>
+		<div class="content">
+			<div class="article">
+				             	<div class="article_info">
+             		<h1 class="art_h1">
+             			<a class='fa-a' href='php/viewer/art.php?art_id=20'><span class='php' style='font-family:myFirstFont '>Steam周销量 《绝地求生大逃杀》54连冠被终结 《孤岛惊魂5》强势登顶</span></a>             		</h1>
+                	<span class="fa fa-calendar">2018/04/02</span>
+                	&nbsp;&nbsp;
+                	<span class="fa fa-user-o"></span>kuromi
+                	                	<img  class="thumb_img" src="./upload/2018/04/02/kpWBfY.png">
+                	                    <p class="p_content" style="font-family: myFirstFont;margin: 15px 0">《孤岛惊魂5》本期成功登顶，算是成功让《绝地求生》这款神作在54连冠后被止步。排名第二的游戏则是《绝地求生》，受《孤岛惊魂5》的影响，该作本期排名下降了1位。值得一提的是：《绝地求生》这款游戏的54连冠记录初次登顶是2017年的3月20号到3月26号，距今刚好1年。排名第三至第五的游戏全部是不同大区<a class='fa-a' href='php/viewer/art.php?art_id=20'>......<span class='php' style='color: red'><br/>（阅读全文）</span></a></p>
+                    <div class="black_tag">
+                    	<span class="sp fa fa-folder"><a class='fa-a' href='index.php?cat_id=6'><span class='php'>游戏</span></a>                    	<span class="sp fa fa-comments">0</span>
+                    	<span class="sp fa fa-tag"><span class="i-tag">Steam</span></span>
+                    </div>
+            	</div>
+            	             	<div class="article_info">
+             		<h1 class="art_h1">
+             			<a class='fa-a' href='php/viewer/art.php?art_id=19'><span class='php' style='font-family:myFirstFont '>《头号玩家》138个彩蛋解析 全程是梗脑洞炸裂</span></a>             		</h1>
+                	<span class="fa fa-calendar">2018/04/02</span>
+                	&nbsp;&nbsp;
+                	<span class="fa fa-user-o"></span>kuromi
+                	                	<img  class="thumb_img" src="./upload/2018/04/02/YbPCMN.png">
+                	                    <p class="p_content" style="font-family: myFirstFont;margin: 15px 0">作为今年最令游戏玩家和电影迷们为之亢奋的电影，《头号玩家》中出现的各种流行文化彩蛋可以说是让人目不暇接，而史蒂芬&middot;斯皮尔伯格执导的这部电影也让不少粉丝戏称是&ldquo;在彩蛋里插播了电影&rdquo;。IGN此前发布了一段138个彩蛋的解析视频，我们也制作了中文字幕，来看看电影中都有<a class='fa-a' href='php/viewer/art.php?art_id=19'>......<span class='php' style='color: red'><br/>（阅读全文）</span></a></p>
+                    <div class="black_tag">
+                    	<span class="sp fa fa-folder"><a class='fa-a' href='index.php?cat_id=9'><span class='php'>杂谈</span></a>                    	<span class="sp fa fa-comments">0</span>
+                    	<span class="sp fa fa-tag"><span class="i-tag">电影</span></span>
+                    </div>
+            	</div>
+            	             	<div class="article_info">
+             		<h1 class="art_h1">
+             			<a class='fa-a' href='php/viewer/art.php?art_id=18'><span class='php' style='font-family:myFirstFont '>阿里巴巴获得《旅行青蛙》国内独家代理权 出发游览中国大好河山</span></a>             		</h1>
+                	<span class="fa fa-calendar">2018/04/02</span>
+                	&nbsp;&nbsp;
+                	<span class="fa fa-user-o"></span>kuromi
+                	                	<img  class="thumb_img" src="./upload/2018/04/02/vOuVsY.png">
+                	                    <p class="p_content" style="font-family: myFirstFont;margin: 15px 0">4月2日，阿里巴巴集团宣布，与日本游戏公司Hit-Point达成战略合作，获得Hit-Point授权在中国大陆地区独家发行旗下现象级手游《旅行青蛙》，正式宣告这只牵动无数用户关心的&ldquo;青蛙&rdquo;来到中国。
+    根据官方的消息，这一次与青蛙合作不仅仅是游戏，还会有更多与阿里巴巴<a class='fa-a' href='php/viewer/art.php?art_id=18'>......<span class='php' style='color: red'><br/>（阅读全文）</span></a></p>
+                    <div class="black_tag">
+                    	<span class="sp fa fa-folder"><a class='fa-a' href='index.php?cat_id=6'><span class='php'>游戏</span></a>                    	<span class="sp fa fa-comments">0</span>
+                    	<span class="sp fa fa-tag"><span class="i-tag">手游</span></span>
+                    </div>
+            	</div>
+            	            	<ul class="page">
+            		<li><a class='page_active' style="padding: 8px 10px" href=""><</a></li>
+            		            		<li><a class='page_active'>1</a></li>            		<li><a class="page_a" href="index.php?page=2">2</a></li>
+            	            		<li><a class="page_a" href="index.php?page=3">3</a></li>
+            	            	<li><a class='page_active' style="padding: 8px 10px" href="					index.php?
+					cat_id=&page=2">></a></li>
+            	</ul>	
+		</div>
+			<div class="list">
+				<div class="search">
+					<form method="get" >
+				 		<input placeholder="Search for..." type="text" name="search" value="" class="search_form">
+					</form>
+				</div>
+					<div class="logreg">
+						        &nbsp;&nbsp;&nbsp;&nbsp;<a class='fa-a' href='./php/viewer/login.php'><i class=' fa fa-sign-in '></i><span class='php'>登录</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a class='fa-a' href='./php/viewer/register.php'><i class=' fa fa-registered '></i><span class='php'>注册</span></a>                    			
+				</div>	
+				<div class="manage_cat">
+					<h1><span class="fa fa-folder">&nbsp;栏目列表</span></h1>
+					
+					<ul class="fa-ul">
+						                    	<li>
+                    		<a class='fa-a' href='index.php?cat_id=5'>                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php">动漫</span></a></li>
+                    			                    	<li>
+                    		<a class='fa-a' href='index.php?cat_id=6'>                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php">游戏</span></a></li>
+                    			                    	<li>
+                    		<a class='fa-a' href='index.php?cat_id=7'>                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php">php</span></a></li>
+                    			                    	<li>
+                    		<a class='fa-a' href='index.php?cat_id=8'>                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php">感悟</span></a></li>
+                    			                    	<li>
+                    		<a class='fa-a' href='index.php?cat_id=9'>                    			<i class="fa-li fa fa-leanpub fa-fw"></i><span class="php">杂谈</span></a></li>
+                    			                    </ul>
+                    
+				</div>	  
+			</div>    
+			<div class="clean"></div>
+		</div>
+    </div>
+</body>
+</html>
