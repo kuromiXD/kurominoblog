@@ -2,7 +2,22 @@
 //require"./init.php";
 class MYSQL
 {   
-    public $PDO_connect;
+    static private $PDO_instance;
+    private $PDO_connect;
+
+    /**
+     * [getInstance 创建单例对象]
+     * @return [object] [MYSQL类对象]
+     */
+    static function getInstance()
+    {
+    	if(!self::$PDO_instance instanceof self){
+    		self::$PDO_instance = new self();
+    	}
+    	return self::$PDO_instance;
+    }
+
+
 	/**
 	 * [__construct 构造方法建立数据库连接] 
 	 */
@@ -10,7 +25,8 @@ class MYSQL
 	{	
 		$conf_array=require(blog."/lib/config.php");
 		try {
-			$this->PDO_connect=new PDO('mysql:dbname=blog;host=localhost', $conf_array['user'], $conf_array['password']);
+			$this->PDO_connect=new PDO('mysql:dbname=blog;host=localhost', $conf_array['user'], $conf_array['password'],array(
+    PDO::ATTR_PERSISTENT => true));
 		} catch(PDOException $e) {
 			echo "<script>alert('数据库连接失败！')</script>";
 			exit();
@@ -212,5 +228,5 @@ class MYSQL
 
 
 
-$mysql=new Mysql();
+$mysql=MYSQL::getInstance();
 //var_dump($mysql->PDO_get_rows(' select title from article   '));

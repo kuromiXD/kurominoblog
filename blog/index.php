@@ -52,7 +52,9 @@
     }
     
     		
-    	
+    ob_start();
 	require(blog."/html/viewer/index.html");
+    file_put_contents('index.shtml',ob_get_clean());
+    header("location:index.shtml");
     
  ?>

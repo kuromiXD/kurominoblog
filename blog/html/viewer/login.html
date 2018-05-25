@@ -33,10 +33,11 @@
 			<div class="login">
 				<div class="login_1"><form method="post">
 					
-						用户名：<input type="text" name="username" class="login_input">
+						用户名：<?= '<input type="text" name="username" class="login_input" value="'.@$_COOKIE['preusername']
+						.'">'; ?>
 						密码:<input type="password" name="password" class="login_input">
 						<div id="vv"><p style="padding: 0px;margin: 0px;">验证码:</p><input type="text" name="identi_code" class="login_input_ic">
-						<?php echo "<img src=\"$url_identi_code\" class='identi_pic' onclick='identi()'>";
+						<?php echo "<img src=\"$url_identi_code\" class='identi_pic'>";
 						?><span style="font-size: 12px;color: red;vertical-align: top">（如果看不清点击切换）</span></div>
 						<div style="display: block;"><input type="submit" name="" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -50,6 +51,7 @@
 			<div class="clean"></div>
 		</div>
     </div>
-    <script type="text/javascript" src="../../js/identi.js?v=3/27.1"></script>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/identi.js?v=5/24.2"></script>
 </body>
 </html>

@@ -18,12 +18,9 @@ if(empty($_POST)){
     $url_identi_code=make_identi_code($obj);
 	require("../../html/viewer/login.html");
 	
-	
-	//echo  $_SESSION['identi_code'];
 }
 else{
 	session_start();
-	//echo  $_SESSION['identi_code'];
 	$user_info['username']=trim($_POST['username']);
 	$user_info['password']=trim($_POST['password']);
 	$ic=trim($_POST['identi_code']);
@@ -32,6 +29,7 @@ else{
 		echo '<meta http-equiv="refresh" content="0;url=login.php">';
 		exit();
 	}
+	setcookie('preusername',$user_info['username'],0,'');
 	if($user_info['password']==''){
 		echo "<script>alert('密码不能为空！')</script>";
 		echo '<meta http-equiv="refresh" content="0;url=login.php">';
@@ -49,7 +47,6 @@ else{
 	}
 	if($ic!=strtolower($_SESSION['identi_code'])){
 		echo "<script>alert('验证码错误！')</script>"; 
-		//echo $ic,strtolower($_SESSION['identi_code']);
 		echo '<meta http-equiv="refresh" content="0;url=login.php">';
 		exit();
 	}
@@ -62,6 +59,7 @@ else{
 		exit();
     }
     else{
+    	setcookie('preusername','',time()-1,'/');
     	$obj1=new Secret($user_info['username']);
     	setcookie('username',$user_info['username'],0,'/');
     	setcookie('secretnumber',$obj1->__sercet($obj),0,'/');
